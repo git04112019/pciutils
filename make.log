@@ -1,20 +1,145 @@
+=>make
 make -C lib all
 /usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o lspci.o lspci.c
 /usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o ls-vpd.o ls-vpd.c
+/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o ls-caps.o ls-caps.c
 make[1]: Entering directory '/home/tender/work/lspci/pciutils/lib'
 /usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o init.o init.c
-/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o ls-caps.o ls-caps.c
-/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o access.o access.c
-/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o generic.o generic.c
-/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o dump.o dump.c
-/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o names.o names.c
 /usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o ls-caps-vendor.o ls-caps-vendor.c
+/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o access.o access.c
 /usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o ls-ecaps.o ls-ecaps.c
-/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o filter.o filter.c
 /usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native  -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o ls-kernel.o ls-kernel.c
 /usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o ls-tree.o ls-tree.c
-/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o names-hash.o names-hash.c
-/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o names-parse.o names-parse.c
-/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o names-net.o names-net.c
-/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o names-cache.o names-cache.c
+/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o ls-map.o ls-map.c
+/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o generic.o generic.c
+/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o common.o common.c
+/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o setpci.o setpci.c
+/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o dump.o dump.c
+M=`echo 2018-09-21 | sed 's/-01-/-January-/;s/-02-/-February-/;s/-03-/-March-/;s/-04-/-April-/;s/-05-/-May-/;s/-06-/-June-/;s/-07-/-July-/;s/-08-/-August-/;s/-09-/-September-/;s/-10-/-October-/;s/-11-/-November-/;s/-12-/-December-/;s/\(.*\)-\(.*\)-\(.*\)/\3 \2 \1/'` ; sed <setpci.man >setpci.8 "s/@TODAY@/$M/;s/@VERSION@/pciutils-3.6.2/;s#@IDSDIR@#/usr/local/share#"
+In file included from pciutils.h:10:0,
+                 from lspci.h:10,
+                 from ls-vpd.c:14:
+lib/sysdep.h:27:10: fatal error: asm/byteorder.h: No such file or directory
+ #include <asm/byteorder.h>
+          ^~~~~~~~~~~~~~~~~
+M=`echo 2018-09-21 | sed 's/-01-/-January-/;s/-02-/-February-/;s/-03-/-March-/;s/-04-/-April-/;s/-05-/-May-/;s/-06-/-June-/;s/-07-/-July-/;s/-08-/-August-/;s/-09-/-September-/;s/-10-/-October-/;s/-11-/-November-/;s/-12-/-December-/;s/\(.*\)-\(.*\)-\(.*\)/\3 \2 \1/'` ; sed <pcilib.man >pcilib.7 "s/@TODAY@/$M/;s/@VERSION@/pciutils-3.6.2/;s#@IDSDIR@#/usr/local/share#"
+compilation terminated.
+make: *** [<builtin>: ls-vpd.o] Error 1
+make: *** Waiting for unfinished jobs....
+/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o names.o names.c
+In file included from pciutils.h:10:0,
+                 from lspci.h:10,
+                 from ls-tree.c:12:
+lib/sysdep.h:27:10: fatal error: asm/byteorder.h: No such file or directory
+ #include <asm/byteorder.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [<builtin>: ls-tree.o] Error 1
+In file included from pciutils.h:10:0,
+                 from lspci.h:10,
+                 from ls-caps-vendor.c:12:
+lib/sysdep.h:27:10: fatal error: asm/byteorder.h: No such file or directory
+ #include <asm/byteorder.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from pciutils.h:10:0,
+                 from lspci.h:10,
+                 from ls-caps.c:12:
+lib/sysdep.h:27:10: fatal error: asm/byteorder.h: No such file or directory
+ #include <asm/byteorder.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from internal.h:34:0,
+                 from init.c:14:
+sysdep.h:27:10: fatal error: asm/byteorder.h: No such file or directory
+ #include <asm/byteorder.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [<builtin>: ls-caps-vendor.o] Error 1
+In file included from internal.h:34:0,
+                 from generic.c:11:
+sysdep.h:27:10: fatal error: asm/byteorder.h: No such file or directory
+ #include <asm/byteorder.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [<builtin>: ls-caps.o] Error 1
+In file included from pciutils.h:10:0,
+                 from lspci.h:10,
+                 from lspci.c:14:
+lib/sysdep.h:27:10: fatal error: asm/byteorder.h: No such file or directory
+ #include <asm/byteorder.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+/usr/bin/x86_64-w64-mingw32-gcc -Ofast -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native -I/usr/local/opt/python3/include/python3.6 -I/home/root/.linuxbrew/opt/llvm/include -I/home/root/.linuxbrew/opt/ncurses/include -I/home/root/.linuxbrew/opt/lapack/include -I/home/root/.linuxbrew/opt/openblas/include -I/home/root/.linuxbrew/opt/opencl/include -I/home/root/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include -I/usr/local/opt/python3/include/python3.6 -I/home/tender/.linuxbrew/opt/llvm/include -I/home/tender/.linuxbrew/opt/ncurses/include -I/home/tender/.linuxbrew/opt/lapack/include -I/home/tender/.linuxbrew/opt/openblas/include -I/home/tender/.linuxbrew/opt/opencl/include -I/home/tender/.linuxbrew/opt/grt/include -Iopt/X11/include -I/usr/local/cuda/include -I/usr/local/cuda/nvvm/include   -c -o filter.o filter.c
+make: *** [<builtin>: lspci.o] Error 1
+In file included from pciutils.h:10:0,
+                 from lspci.h:10,
+                 from ls-ecaps.c:12:
+lib/sysdep.h:27:10: fatal error: asm/byteorder.h: No such file or directory
+ #include <asm/byteorder.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [<builtin>: ls-ecaps.o] Error 1
+In file included from pciutils.h:10:0,
+                 from lspci.h:10,
+                 from ls-kernel.c:13:
+lib/sysdep.h:27:10: fatal error: asm/byteorder.h: No such file or directory
+ #include <asm/byteorder.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [<builtin>: init.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [<builtin>: generic.o] Error 1
+make: *** [<builtin>: ls-kernel.o] Error 1
+In file included from pciutils.h:10:0,
+                 from lspci.h:10,
+                 from ls-map.c:13:
+lib/sysdep.h:27:10: fatal error: asm/byteorder.h: No such file or directory
+ #include <asm/byteorder.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from pciutils.h:10:0,
+                 from setpci.c:16:
+lib/sysdep.h:27:10: fatal error: asm/byteorder.h: No such file or directory
+ #include <asm/byteorder.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [<builtin>: ls-map.o] Error 1
+make: *** [<builtin>: setpci.o] Error 1
+In file included from internal.h:34:0,
+                 from access.c:14:
+sysdep.h:27:10: fatal error: asm/byteorder.h: No such file or directory
+ #include <asm/byteorder.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [<builtin>: access.o] Error 1
+In file included from pciutils.h:10:0,
+                 from common.c:15:
+lib/sysdep.h:27:10: fatal error: asm/byteorder.h: No such file or directory
+ #include <asm/byteorder.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [<builtin>: common.o] Error 1
+In file included from internal.h:34:0,
+                 from dump.c:14:
+sysdep.h:27:10: fatal error: asm/byteorder.h: No such file or directory
+ #include <asm/byteorder.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [<builtin>: dump.o] Error 1
+In file included from internal.h:34:0,
+                 from names.c:13:
+sysdep.h:27:10: fatal error: asm/byteorder.h: No such file or directory
+ #include <asm/byteorder.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [<builtin>: names.o] Error 1
+In file included from internal.h:34:0,
+                 from filter.c:12:
+sysdep.h:27:10: fatal error: asm/byteorder.h: No such file or directory
+ #include <asm/byteorder.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [<builtin>: filter.o] Error 1
 make[1]: Leaving directory '/home/tender/work/lspci/pciutils/lib'
+make: *** [Makefile:69: lib/libpci.a] Error 2
