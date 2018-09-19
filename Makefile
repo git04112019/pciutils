@@ -1,17 +1,22 @@
 # Makefile for The PCI Utilities
 # (c) 1998--2018 Martin Mares <mj@ucw.cz>
 
+#---------------------------------------------------------------------
+# executables
+#---------------------------------------------------------------------
 OPT=-Ofast
 CFLAGS=$(OPT) -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -march=native
 
 VERSION=3.6.2
 DATE=2018-09-21
 
-# Host OS and release (override if you are cross-compiling)
-HOST=
-RELEASE=
+# Host OS and release (override if you are cross-compiling)l
+HOST=Linux
+RELEASE=Windows
 COMPILER_ROOT_PATH=/usr/bin
-# CROSS_COMPILE= $(COMPILER_ROOT_PATH)/x86_64-w64-mingw32-
+CROSS_COMPILE= $(COMPILER_ROOT_PATH)/x86_64-w64-mingw32-
+CC=$(CROSS_COMPILE)gcc
+AR=$(CROSS_COMPILE)ar
 
 # Support for compressed pci.ids (yes/no, default: detect)
 ZLIB=
@@ -46,8 +51,6 @@ PKGCFDIR=$(LIBDIR)/pkgconfig
 INSTALL=install
 DIRINSTALL=install -d
 STRIP=-s
-CC=$(CROSS_COMPILE)gcc
-AR=$(CROSS_COMPILE)ar
 RANLIB=$(CROSS_COMPILE)ranlib
 
 # Base name of the library (overriden on NetBSD, which has its own libpci)

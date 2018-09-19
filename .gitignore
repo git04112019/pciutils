@@ -2,8 +2,9 @@
 *.o
 *.so
 *.[0-9]
-lspci
-setpci
-example
-update-pciids
+make.log
+#lspci
+#setpci
+#example
+#update-pciids
 pci.ids.gz
