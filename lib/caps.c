@@ -104,11 +104,40 @@ pci_free_caps(struct pci_dev *d)
 struct pci_cap *
 pci_find_cap(struct pci_dev *d, unsigned int id, unsigned int type)
 {
+  return pci_find_cap_nr(d, id, type, NULL);
+}
+
+/**
+ * Finds a particular capability of a device
+ *
+ * To select one capability if there are more than one with the same id, you
+ * can provide a pointer to an unsigned int that contains the index which you
+ * want as cap_number. If you don't care and are fine with the first one you
+ * can supply NULL. The cap_number will be replaced by the acutal number
+ * of capablities with that id.
+ */
+struct pci_cap *
+pci_find_cap_nr(struct pci_dev *d, unsigned int id, unsigned int type,
+                unsigned int *cap_number)
+{
   struct pci_cap *c;
+  struct pci_cap *found = NULL;
+  unsigned int target = (cap_number ? *cap_number : 0);
+  unsigned int index = 0;
 
   pci_fill_info_v35(d, ((type == PCI_CAP_NORMAL) ? PCI_FILL_CAPS : PCI_FILL_EXT_CAPS));
+
   for (c=d->first_cap; c; c=c->next)
-    if (c->type == type && c->id == id)
-      return c;
-  return NULL;
+    {
+      if (c->type == type && c->id == id)
+	{
+	  if (target == index)
+	    found = c;
+	  index++;
+	}
+    }
+
+  if (cap_number)
+    *cap_number = index;
+  return found;
 }

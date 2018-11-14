@@ -1,8 +1,13 @@
 #
 #	List of PCI ID's
 #
+<<<<<<< HEAD
 #	Version: 2018.09.19
 #	Date:    2018-09-19 03:15:02
+=======
+#	Version: 2018.08.12
+#	Date:    2018-08-12 03:15:01
+>>>>>>> 195e7171bf479deb0747d529912960b2242499f9
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -653,7 +658,11 @@
 		1d49 0001  ThinkSystem 1610-4P NVMe Switch Adapter
 		1d49 0002  ThinkSystem 810-4P NVMe Switch Adapter
 	02b1  Virtual Endpoint on PCIe Switch (9749)
+<<<<<<< HEAD
 		1d49 0004  ThinkSystem 1610-8P NVMe Switch Adapter
+=======
+		1d49 0004  Lenovo ThinkSystem 1610-8P NVMe Switch Adapter
+>>>>>>> 195e7171bf479deb0747d529912960b2242499f9
 	0407  MegaRAID
 		1000 0530  MegaRAID 530 SCSI 320-0X RAID Controller
 		1000 0531  MegaRAID 531 SCSI 320-4X RAID Controller
@@ -11245,6 +11254,7 @@
 	1db7  GV100GL [Tesla V100 DGXS 32GB]
 	1dba  GV100GL [Quadro GV100]
 		10de 12eb  TITAN V CEO Edition
+<<<<<<< HEAD
 	1e02  TU102
 	1e04  TU102 [GeForce RTX 2080 Ti]
 	1e07  TU102 [GeForce RTX 2080 Ti]
@@ -11258,6 +11268,13 @@
 	1eae  TU104M
 	1f02  TU106 [GeForce RTX 2070]
 	1f07  TU106 [GeForce RTX 2070]
+=======
+	1e07  GV102
+	1e3c  GV102GL
+	1e82  GV104
+	1e87  GV104
+	1eab  GV104M
+>>>>>>> 195e7171bf479deb0747d529912960b2242499f9
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -16733,8 +16750,11 @@
 	50ac  T540-50AC Unified Wire Ethernet Controller
 	50ad  T520-50AD Unified Wire Ethernet Controller
 	50ae  T540-50AE Unified Wire Ethernet Controller
+<<<<<<< HEAD
 	50af  T580-50AF Unified Wire Ethernet Controller
 	50b0  T520-50B0 Unified Wire Ethernet Controller
+=======
+>>>>>>> 195e7171bf479deb0747d529912960b2242499f9
 	5401  T520-CR Unified Wire Ethernet Controller
 	5402  T522-CR Unified Wire Ethernet Controller
 	5403  T540-CR Unified Wire Ethernet Controller
@@ -16803,8 +16823,11 @@
 	54ac  T540-50AC Unified Wire Ethernet Controller
 	54ad  T520-50AD Unified Wire Ethernet Controller
 	54ae  T540-50AE Unified Wire Ethernet Controller
+<<<<<<< HEAD
 	54af  T580-50AF Unified Wire Ethernet Controller
 	54b0  T520-50B0 Unified Wire Ethernet Controller
+=======
+>>>>>>> 195e7171bf479deb0747d529912960b2242499f9
 	5501  T520-CR Unified Wire Storage Controller
 	5502  T522-CR Unified Wire Storage Controller
 	5503  T540-CR Unified Wire Storage Controller
@@ -16873,8 +16896,11 @@
 	55ac  T540-50AC Unified Wire Storage Controller
 	55ad  T520-50AD Unified Wire Storage Controller
 	55ae  T540-50AE Unified Wire Storage Controller
+<<<<<<< HEAD
 	55af  T580-50AF Unified Wire Storage Controller
 	55b0  T520-50B0 Unified Wire Storage Controller
+=======
+>>>>>>> 195e7171bf479deb0747d529912960b2242499f9
 	5601  T520-CR Unified Wire Storage Controller
 	5602  T522-CR Unified Wire Storage Controller
 	5603  T540-CR Unified Wire Storage Controller
@@ -16943,8 +16969,11 @@
 	56ac  T540-50AC Unified Wire Storage Controller
 	56ad  T520-50AD Unified Wire Storage Controller
 	56ae  T540-50AE Unified Wire Storage Controller
+<<<<<<< HEAD
 	56af  T580-50AF Unified Wire Storage Controller
 	56b0  T520-50B0 Unified Wire Storage Controller
+=======
+>>>>>>> 195e7171bf479deb0747d529912960b2242499f9
 	5701  T520-CR Unified Wire Ethernet Controller
 	5702  T522-CR Unified Wire Ethernet Controller
 	5703  T540-CR Unified Wire Ethernet Controller
@@ -17052,8 +17081,11 @@
 	58ac  T540-50AC Unified Wire Ethernet Controller [VF]
 	58ad  T520-50AD Unified Wire Ethernet Controller [VF]
 	58ae  T540-50AE Unified Wire Ethernet Controller [VF]
+<<<<<<< HEAD
 	58af  T580-50AF Unified Wire Ethernet Controller [VF]
 	58b0  T520-50B0 Unified Wire Ethernet Controller [VF]
+=======
+>>>>>>> 195e7171bf479deb0747d529912960b2242499f9
 	6001  T6225-CR Unified Wire Ethernet Controller
 	6002  T6225-SO-CR Unified Wire Ethernet Controller
 	6003  T6425-CR Unified Wire Ethernet Controller
@@ -19364,7 +19396,10 @@
 	7191  Proc10a_48S
 	71a1  Proc10a_66S
 	71b1  Proc10A
+<<<<<<< HEAD
 	72b1  HawkEye
+=======
+>>>>>>> 195e7171bf479deb0747d529912960b2242499f9
 	73b1  Proc10s
 165d  Hsing Tech. Enterprise Co., Ltd.
 165f  Linux Media Labs, LLC
@@ -21655,7 +21690,10 @@
 	790e  FCH LPC Bridge
 1d95  Graphcore Ltd
 	0001  Colossus GC2 [C2]
+<<<<<<< HEAD
 	0002  Colossus GC1 [S1]
+=======
+>>>>>>> 195e7171bf479deb0747d529912960b2242499f9
 1da1  Teko Telecom S.r.l.
 1da2  Sapphire Technology Limited
 1dbb  NGD Systems, Inc.
@@ -23071,6 +23109,7 @@
 		1028 1fe2  Express Flash NVMe 2TB 2.5" U.2 (P4500)
 		1028 1fe3  Express Flash NVMe 4TB 2.5" U.2 (P4500)
 		1028 1fe4  Express Flash NVMe 4TB HHHL AIC (P4500)
+<<<<<<< HEAD
 		1028 1fee  Express Flash NVMe 1.6TB 2.5" U.2 (P4610)
 		1028 1fef  Express Flash NVMe 3.2TB 2.5" U.2 (P4610)
 		1028 1ff0  Express Flash NVMe 6.4TB 2.5" U.2 (P4610)
@@ -23099,6 +23138,10 @@
 		8086 4812  NVMe Datacenter SSD [3DNAND] ME 2.5" U.2 (P4610)
 		8086 4814  NVMe Datacenter SSD [3DNAND] ME AIC (P4610)
 	0a55  NVMe DC SSD [3DNAND, Beta Rock Controller]
+=======
+		8086 4308  Intel SSD D5-P4320 and D5-P4326
+	0a55  Express Flash NVMe P4600
+>>>>>>> 195e7171bf479deb0747d529912960b2242499f9
 		1028 1fe5  Express Flash NVMe 1.6TB 2.5" U.2 (P4600)
 		1028 1fe6  Express Flash NVMe 2TB 2.5" U.2 (P4600)
 		1028 1fe7  Express Flash NVMe 3.2TB 2.5" U.2 (P4600)
@@ -24387,7 +24430,10 @@
 		8086 00a0  Ethernet Converged Network Adapter X710-T4
 		8086 1003  Ethernet Converged Network Adapter X710-T
 	158a  Ethernet Controller XXV710 for 25GbE backplane
+<<<<<<< HEAD
 		1590 0000  10/25Gb Ethernet Adapter
+=======
+>>>>>>> 195e7171bf479deb0747d529912960b2242499f9
 		1590 0286  Synergy 4610C 10/25Gb Ethernet Adapter
 		8086 000a  Ethernet 25G 2P XXV710 Mezz
 	158b  Ethernet Controller XXV710 for 25GbE SFP28
@@ -24413,7 +24459,10 @@
 	15aa  Ethernet Connection X552 10 GbE Backplane
 		1059 0120  T4008 10GbE interface
 	15ab  Ethernet Connection X552 10 GbE Backplane
+<<<<<<< HEAD
 		1059 0150  RD-01068 10GbE interface
+=======
+>>>>>>> 195e7171bf479deb0747d529912960b2242499f9
 		1059 0170  RD-01213 10GbE interface
 	15ac  Ethernet Connection X552 10 GbE SFP+
 		1059 0160  RD-01167 10GbE interface
